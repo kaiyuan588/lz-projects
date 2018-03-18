@@ -1,0 +1,20 @@
+
+.table-c table{
+    border-right:1px solid #9B9898;
+    border-bottom:1px solid #9B9898;
+    border-left:1px solid#9B9898;
+    border-top:1px solid #9B9898
+} 
+.table-c table td{
+    border-right:1px solid #9B9898;
+    border-bottom:1px solid #9B9898;
+    border-left:1px solid#9B9898;
+    border-top:1px solid #9B9898
+} 
+.table-c table th{
+    border-right:1px solid #9B9898;
+    border-bottom:1px solid #9B9898;
+    border-left:1px solid#9B9898;
+    border-top:1px solid #9B9898
+} 
+

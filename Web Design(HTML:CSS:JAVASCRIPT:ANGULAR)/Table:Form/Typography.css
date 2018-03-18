@@ -1,0 +1,20 @@
+header{
+    margin-left: 20px;
+}
+section{
+    display: flex;
+}
+
+article{
+    padding: 10px;
+    margin: 10px;
+    width: 400px
+}
+
+article2{
+    padding: 10px;
+    margin: 10px;
+    background: #abcafc;
+    width: 400px
+}
+

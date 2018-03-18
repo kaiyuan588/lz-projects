@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Hotel Reservation Form</title>
+    <link href="Assignment_2_WebForm.css" rel="stylesheet" type"text/css">
+</head>
+<body>
+    <header>
+            <h1>HOTEL RESERVATION FORM</h1>
+
+    </header>
+    
+    <p>An online hotel booking form to track yor bookings easily and <br> manage furter reservations more accurate.</p>
+    <div id="parent">
+        <form action="/hotel-reservation-form-page" method="post" id="Hotel_Form">
+            <div style="display: flex; padding-bottom: 18px;width : 750px;">
+                <div style="margin-left : 0; margin-right : 1%; width : 49%;">
+                    <label for="first_name">First Name <sup>*</sup></label>
+                    <br>
+                    <input type="text" id="first_name" name="user_firstname" required>
+                    <label for="first_name"><abbr title="required"></abbr></label>
+                </div>
+
+                <div style=" margin-left : 1%; margin-right : 0%; width : 49%;">
+                    <label for="last_name">Last Name <sup>*</sup></label>
+                    <br>
+                    <input type="text" id="last_name" name="user_lastname" required>
+                    <label for="last_name"><abbr title="required"></abbr></label>
+                </div>
+            </div>
+
+            <div style="display: flex; padding-bottom: 18px;width : 750px;">
+                <div style="margin-left : 0; margin-right : 1%; width : 49%;">
+                    <label for="mail">E-mail <sup>*</sup></label>
+                    <br>
+                    <input type="email" id="mail" name="user_mail"required>
+                    <label for="mail"><abbr title="required"></abbr></label>
+                </div>
+    
+                <div style=" margin-left : 1%; margin-right : 0%; width : 49%;">
+                    <label for="Phone_number">Phone Number <sup>*</sup></label>
+                    <br>
+                    <input type="text" id="Phone_number" name="user_phone" pattern="[0-9]{10}" required>
+                    <label for="Phone_number"><abbr title="required"></abbr></label>
+                 </div>
+            </div>
+
+            <div style="display: flex; padding-bottom: 18px;width : 750px;">
+                <div style="margin-left : 0; margin-right : 1%; width : 49%;">
+                    <label for="Country">Country<sup>*</sup></label>
+                    <br>
+                    <input type="text" id="country" name="user_country" required>
+                    <label for="Country"><abbr title="required"></abbr></label>
+                </div>
+        
+                <div style=" margin-left : 1%; margin-right : 0%; width : 49%;">
+                    <label for="City">City<sup>*</sup></label>
+                    <br>
+                    <input type="text" id="City" name="user_City" required>
+                    <label for="City"><abbr title="required"></abbr></label>
+                </div>
+            </div>
+                
+            <div style="display: flex; padding-bottom: 18px;width : 750px;">
+                <div style="margin-left : 0; margin-right : 1%; width : 49%;">
+                    <label for="address">Address<sup>*</sup></label>
+                    <br>
+                    <input type="text" id="address" name="user_address" required>
+                    <label for="address"><abbr title="required"></abbr></label>
+                </div>
+            
+                <div style=" margin-left : 1%; margin-right : 0%; width : 49%;">
+                    <label for="zipcode">Postal/Zip code<sup>*</sup></label>
+                    <br>
+                    <input type="text" id="zipcode" name="user_zip" pattern="[0-9]{5}">
+                    <label for="zipcode"><abbr title="required"></abbr></label>
+                    </div>
+                </div>
+
+            <div style="display: flex; padding-bottom: 18px;width : 750px;">
+                <div style="margin-left : 0; margin-right : 1%; width : 49%;">
+                    <label for="ChecinDate">Check-in Date<sup>*</sup></label>
+                    <br>
+                    <input type="Date" id="CheckinDate" name="user_checkin" required>
+                    <label for="CheckinDate"><abbr title="required"></abbr></label>
+                </div>
+                
+                <div style=" margin-left : 1%; margin-right : 0%; width : 49%;">
+                    <label for="CheckoutDate">Check-Out Date<sup>*</sup></label>
+                    <br>
+                    <input type="Date" id="CheckoutDate" name="user_checkout" required>
+                    <label for="CheckoutDate"><abbr title="required"></abbr></label>
+                </div>
+            </div>
+
+            <div style="display: flex; padding-bottom: 18px;width : 750px;">
+                <div style="margin-left : 0; margin-right : 1%; width : 49%;">
+                    <label for="ACDtpye">Accomodation type<sup>*</sup></label>
+                    <br>
+                    <select name="ACDtype" id="ACDtpye" required>
+                        <option value="Apartment">Apartment</option>
+                        <option value="BedAndBreakfasts">Bed and Breakfasts</option>
+                        <option value="Homestays">Homestays</option>
+                    </select>
+                    <label for="ACDtype"><abbr title="required"></abbr></label>
+                </div>
+                    
+                <div style=" margin-left : 1%; margin-right : 0%; width : 49%;">
+                    <label for="NumRoom">Number of Rooms<sup>*</sup></label>
+                    <br>
+                    <input type="number" min="1" max="10" step="1" id="NumRoom" name="NumRoom" pattern="\d+" required>
+                    <label for="NumRoom"><abbr title="required"></abbr></label>
+                </div>
+            </div>
+                
+            <div style="display: flex; padding-bottom: 18px;width : 750px;">
+                <div style="margin-left : 0; margin-right : 1%; width : 49%;">
+                    <label for="MealPlan">Meal Plan<sup>*</sup></label>
+                    <br>
+                    <select name="MealPlan" id="MealPlan" required>
+                        <option value="Chinese">Chinese Meal</option>
+                        <option value="ItalianFood">Italian Food</option>
+                        <option value="FastFood">Fast Food</option>
+                    </select>
+                    <label for="MealPlan"><abbr title="required"></abbr></label>
+                </div>
+                        
+                <div style=" margin-left : 1%; margin-right : 0%; width : 49%;">
+                    <label for="RoomType">Room Type<sup>*</sup></label>
+                    <br>
+                    <select name="RoomType" id="RoomType" required>
+                        <option value="1bed">Single-bed Room</option>
+                        <option value="2bed">Double-bed Room</option>
+                        <option value="familyroom">Family Room</option>
+                    </select>
+                    <label for="RoomType"><abbr title="required"></abbr></label>
+                </div>
+            </div>
+                    
+            <div style="display: flex; padding-bottom: 18px;width : 750px;">
+                <div style="margin-left : 0; margin-right : 1%; width : 49%;">
+                    <label for="AdditionalRequests">Additional Requests</label>
+                    <textarea id="AdditionalRequests" name="msg" maxlength="140" rows="5"></textarea>
+                </div>
+                            
+                <div style=" margin-left : 1%; margin-right : 0%; width : 49%;">
+                    <label for="Pick">Pickup from Airport?</label>
+                    <input type="radio" required name="title" id="r1" value="Yes"><label for="r1">Yes</label>
+                    <input type="radio" required name="title" id="r2" value="No"><label for="r2">No</label>   
+                    <label for="RoomType"><abbr title="required"></abbr></label>
+                </div>
+            </div>
+
+            <div style="display: flex; padding-bottom: 18px;width : 750px;">
+                <div style="margin-left : 1%; margin-right : 0%; width : 49%;">
+                    <button>Submit</button>
+            </div>
+
+        </form>
+
+    </div>
+    
+</body>

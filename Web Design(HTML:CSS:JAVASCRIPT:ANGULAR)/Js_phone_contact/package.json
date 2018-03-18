@@ -1,0 +1,16 @@
+{
+  "name": "assignment5",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.6.5",
+    "serve-static": "^1.13.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+    <script>
+    function reversestring(str){
+        var array=str.toLowerCase().split("");
+        array=array.reverse();
+        array[0]=array[0].toUpperCase();
+        for(i=0;i<array.length;i++)
+        {
+            if(array[i]==" ")
+            {
+                array[i+1]=array[i+1].toUpperCase();
+            }
+        }
+        array=array.join("");
+        
+        document.write(array);
+    }
+    reversestring("Hello Our team is Octopus");
+    </script>
+</html>

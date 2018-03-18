@@ -1,0 +1,111 @@
+hr{
+    color:black;
+}
+.line{
+    color: rgb(92, 89, 89);
+    height: 0;
+    border: 1px solid;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+.firstletter{
+    color: rgb(92, 89, 89);
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.name{
+    color: rgb(92, 89, 89);
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.name:hover{
+    color: rgb(92, 89, 89);
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.box{
+    margin-top: 40px;
+    margin-left: 10%;
+    border-style: solid;
+    border-color: rgb(92, 89, 89);
+    height:200px;
+    width:80%;
+    background: white;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+.profile{
+    color: rgb(92, 89, 89);
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.imagebox{
+    margin-top: 40px;
+    margin-left: 35%;
+    border-style: solid;
+    height: 200px;
+    width: 30%
+}
+
+.createbox{
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 40px;
+    margin-left: 10%;
+    border-style: solid;
+    border-color: rgb(63, 61, 61);
+    height:400px;
+    width:400px;
+    background: white;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+.box{
+    margin-top: 40px;
+    margin-left: 10%;
+    border-style: solid;
+    border-color: rgb(63, 61, 61);
+    height:200px;
+    width:80%;
+    background: white;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.font{
+    text-align: center;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(63, 61, 61);
+}
+
+.backfont{
+    text-align: right;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(63, 61, 61);
+}
+.createfont{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(63, 61, 61);
+}
+.backfont:hover{
+    text-align: right;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(63, 61, 61);
+}
+

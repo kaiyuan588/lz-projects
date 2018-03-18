@@ -1,0 +1,612 @@
+$bgd_font: Raleway Regular, Calibri, 'Trebuchet MS', sans-serif;
+$width: 100%;
+$margin: 0;
+$padding: 0;
+$height: 700px;
+$bgdcolor_1:#505153;
+$bgdcolor_2:#f9f9f9;
+$bgdcolor_3:#ffffff;
+$bgdcolor_4:#666666;
+$bgdcolor_5:#3375ee;
+$fontcolor_1:#d5d5d5;
+$fontcolor_2:#3b3d40;
+$fontcolor_3:#656b6f;
+$shadow:0px 0px 10px #000;
+$p:10%;
+$x:10px;
+
+@mixin hdl($fs){
+    height:auto;
+    padding-top: 10%;
+    text-align: left;
+    font-size: $fs;
+}
+
+
+@mixin divp_2($mt){
+    width: f_2(2.2);
+    height: f_2(0.3);
+    background-color: white;
+    margin-bottom: f_2(0.6);
+    @include poab_r(f_1(1));
+    
+    margin-top: $mt;
+
+}
+
+@mixin l1l2($fs){
+    float:none;
+    width: auto;
+    font-size: $fs;
+}
+
+@mixin dpn{
+    display: none;
+}
+
+@function f_1($n) {
+    @return $n * $p;
+}
+
+@function f_2($n){
+    @return $n * $x;
+}
+
+
+
+@mixin mp($m,$d) {
+    margin: $m;
+    padding: $d;
+}
+
+@mixin rl($r,$l) {
+    margin-left: $l;
+    margin-right: $r;
+}
+
+@mixin poab_l($pl){
+    position: absolute;
+    left:$pl;   
+}
+
+@mixin poab_r($pr){
+    position: absolute;
+    right: $pr;
+}
+
+
+.background_template{
+    @include mp(0,0);
+    width: $width;
+    font-family:$bgd_font;
+    height:$height;
+}
+
+.background_1{
+    @extend .background_template;
+    background:$bgdcolor_1;
+}
+
+.background_2
+{
+    @extend .background_template;
+    background:$bgdcolor_2;
+}
+
+.background_3{
+    @extend .background_template;
+    background:$bgdcolor_3;
+}
+
+.background_4{
+    background-color:$bgdcolor_5;
+    @extend .background_template;
+    
+}
+
+.shadow{
+    box-shadow:$shadow;
+}
+
+.font3{
+    @include poab_l(f_1(0.5));
+    font-family: $bgd_font;
+    color: white;
+    width: f_1(1.5);
+    margin-top: f_2(2);
+    
+
+}
+
+@mixin divp_1($rp,$mr){
+    margin-right: $mr;
+    @include poab_r($rp);
+    top:25px;
+    
+}
+
+div{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+div4{
+    @include divp_1(f_2(4),f_2(1))
+}
+
+div5{
+    @include divp_1(f_2(6),f_2(4))
+}
+
+div6{
+    @include divp_1(f_2(8),f_2(7))
+}
+
+nav{
+    ul {
+        position: absolute;
+        left: f_1(3);
+        list-style-type: none;
+        @include mp(0,0);
+        overflow: hidden;
+    }
+    
+    li {
+        float: left;
+        a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: f_2(1.4) f_2(1.6);
+            text-decoration: none;
+        }
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    }
+}
+
+
+@mixin fonttype($fs){
+   font-family: $bgd_font;
+   text-align: center; 
+   font-size: $fs;
+}
+
+@mixin postion_1{
+    padding-top:f_2(15);
+    @include rl(f_1(1),f_1(1));
+    
+}
+
+.font1{
+    @include fonttype(f_2(5));
+    color:$bgdcolor_2;
+    margin-top: f_2(0.5);
+    
+}
+
+.font2{
+    @include fonttype(f_2(1.5));
+    color:$fontcolor_1;
+    font-weight: normal;
+}
+
+.headline{
+    @include fonttype(f_2(4));
+    @include postion_1;
+    
+}
+
+.lorem{
+    padding-top: f_2(0.5);
+    @include rl(f_1(2),f_1(2));
+    @include fonttype(f_2(1.5));
+    
+}
+
+.page_2_p{
+    float: left;
+    @include rl(f_1(0.5),f_1(0.5));
+    margin-top: f_2(5);
+    width:f_1(4);
+}
+
+.L1{
+    @extend .page_2_p;
+}
+
+.L2{
+    @extend .page_2_p;
+}
+
+.button{
+    clear:both;
+    padding-top: f_2(2);
+    @include fonttype(f_2(1.2));
+    left:f_1(4.2);
+}
+
+button{
+    font-size:f_2(1.2);
+    width:f_2(10);
+    height:f_2(2);
+    background-color: $bgdcolor_5;
+    border:0;
+    color:white;
+    border-radius:f_2(1) f_2(1) f_2(1) f_2(1);
+}
+
+.font4{
+    @include fonttype(f_2(5));
+    color: $fontcolor_2;
+    
+    margin-bottom:0;
+}
+
+.font5{
+    @include fonttype(f_2(1.5));
+    color: $fontcolor_3;
+    font-weight: normal;
+    margin-bottom: f_2(4);
+    
+    margin-top: f_2(1);
+}
+
+@mixin border-radius($radius){
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius; 
+}
+
+#circle{
+    width: f_2(11);
+    height: f_2(11);
+    @include border-radius(f_2(5.5));
+    background: $bgdcolor_4;
+    margin-top: f_2(1);
+    margin-left: f_2(2.5);
+}
+
+
+
+@for $i from 1 through 3 {
+    $pl: 2*$i+0.2;
+    .position#{$i} {
+        @include poab_l(f_1($pl));
+    }
+}
+
+
+.position4{
+    @include poab_l(f_1(1));
+    margin-top: f_2(10);
+}
+
+.position5{
+    @include poab_r(f_1(1));
+    margin-top: f_2(10);
+}
+
+.box{
+    width: f_2(15.5);
+    
+    color: $fontcolor_3;
+    @include fonttype(f_2(1));
+}
+
+@mixin arrow{
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.previous{
+    @include arrow;
+}
+
+.next{
+    @include arrow;
+}
+
+.round{
+    border-radius: f_1(5);
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    padding: f_2(0.8) f_2(1.6);
+}
+
+
+.headline4{
+    padding-top:f_2(9);
+    @include rl(f_1(1),f_1(1));
+    @include fonttype(f_2(1.5));
+    color:white;
+
+}
+
+@mixin page_4_temp{
+    color:white;
+    margin-top:f_2(10);
+    
+}
+
+.left{
+    @include poab_l(f_1(0.1));
+    @include page_4_temp;
+}
+.right{
+    @include poab_r(f_1(0.1));
+    @include page_4_temp;
+}
+
+.big1{
+    float:left;
+    height:f_2(20);
+    width:f_1(3.3);
+    @include rl(f_1(0.5),f_1(0.5));
+}
+.p1{
+    
+    height: f_2(15);
+    margin-top:f_2(5);
+    width:auto;
+    border-bottom:0.5px solid white;
+    font-family: $bgd_font;
+    font-size: f_2(2);
+    color:white;
+    padding-bottom: f_1(1);
+}
+
+John{
+    font-family:$bgd_font;
+    font-size: f_2(1.5);
+    color:white;
+
+}
+
+Vice{
+    font-family: cursive;
+    font-size: f_2(1.2);
+    color:#E5E9F1;
+}
+
+.big2{
+    float: left;
+    height:f_2(20);
+    width:f_1(3.3);
+    @include rl(f_1(1),f_1(0.5));
+}
+
+.p2{
+    height:f_2(15);
+    margin-top:f_2(5);
+    border-bottom:0.5px solid white;
+    font-family: $bgd_font;
+    font-size: f_2(2);
+    color:white;
+}
+
+
+
+
+@media only screen and (max-width: 750px){
+     .L1{
+        @include l1l2(f_2(1.35));
+    }
+    .L2{
+        @include l1l2(f_2(1.35));
+    }
+
+    
+    .headline{
+        @include hdl(f_2(2.8));
+    }
+
+   
+
+    div7{
+        @include dpn;
+    }
+    .p1{
+        font-size: f_2(1.5);
+
+    }
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    body{
+        width: 100%;
+        @include mp(0,0)
+    }
+    
+    @mixin hd{  
+        width: 100%;
+        @include mp(0,0);
+        background: $bgdcolor_1;
+        height: 100px;
+    }
+    header{
+        @include hd;
+    }
+    
+    @mixin hfont3{
+        font-family: $bgd_font;
+        color: white;
+        margin-top: 25px;
+        margin-left: 5%;
+
+    }
+    h3{
+        @include hfont3;
+    }
+    
+    
+    ul{
+        display: none;
+    }
+
+    
+
+    div1 {
+        @include divp_2(f_2(2.5))
+
+    }
+    div2 {
+        @include divp_2(f_2(3.3))
+        
+    }
+    div3 {
+        @include divp_2(f_2(4.1))
+        
+    }
+
+    div4{
+        @include dpn;
+    }
+    
+    div5{
+        @include dpn;
+    }
+
+    div6{
+        @include dpn;
+    }
+
+    div7{
+        @include dpn;
+    }
+    div8{
+        @include poab_l(f_1(6));
+        
+    }
+
+    .L1{
+        @include l1l2(f_2(1.2));
+    }
+    .L2{
+        @include l1l2(f_2(1.2));
+    }
+
+    .headline{
+        @include hdl(f_2(2.5));
+    }
+
+    .button{
+        float: left;
+        margin-bottom: 50px;
+        margin-left:30px;
+    }
+
+    .big2{
+        display: none;
+    }
+    .big1{
+        width:auto;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 400px) {
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background: #505153;
+        height: 100px;
+        
+    }
+    
+    h3{
+        font-family: $bgd_font;
+        color: white;
+        margin-top: 25px;
+        margin-left: 5%;
+        
+    
+    }
+    
+    .font4{
+        font-size: 40px;
+    }
+    
+    ul{
+        display: none;
+    }
+
+    div1 {
+        @include divp_2(f_2(2.5))
+
+    }
+    div2 {
+        @include divp_2(f_2(3.3))
+        
+    }
+    div3 {
+        @include divp_2(f_2(4.1))
+        
+    }
+
+    div4{
+        @include dpn;
+    }
+    
+    div5{
+        @include dpn;
+    }
+
+    div6{
+        @include dpn;
+    }
+
+    div7{
+        @include dpn;
+    }
+
+    div8{
+        position: absolute;
+        left: 60%
+    }
+
+    div9{
+        @include dpn;
+    }
+
+    .L1{
+        @include l1l2(f_2(1.2));
+    }
+    .L2{
+        @include l1l2(f_2(1.2));
+    }
+    .headline{
+        @include hdl(f_2(2.5));
+    }
+    .button{
+        left:5px;
+        
+    }
+
+    .big2{
+        display: none;
+    }
+    .big1{
+        width:auto;
+    }
+
+   
+
+}
