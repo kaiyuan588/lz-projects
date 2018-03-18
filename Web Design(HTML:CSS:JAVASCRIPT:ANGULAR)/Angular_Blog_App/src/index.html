@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>A7</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>
+<script>
+    saveListener = function(evt) {
+      var w = document.getElementsByClassName("font_t");
+      var e = document.getElementsByClassName("font_a")
+      var x = document.getElementsByClassName("font_time");
+      var y = document.getElementsByClassName("font_p");
+      var z = document.getElementsByClassName("font_s");
+      var now = new Date();
+      var yy = now.getFullYear();
+      var m = now.getMonth()+1;
+      var d = now.getDay()+12;
+      var h = now.getHours();
+      var mm = now.getMinutes();
+      var str;
+      if(h>12){
+        h-= 12;
+        str = "PM";
+      }else{
+        str="AM";
+      }
+      if(z[0].innerHTML=="Save"){
+        for(var i=0;i<z.length;i++){
+          if(w[i].innerHTML!=""&&e[i].innerHTML!=""&&y[i].innerHTML!=""){
+            w[i].setAttribute("contenteditable", "false");
+            e[i].setAttribute("contenteditable", "false");
+            x[i].innerHTML=m+"/"+d+"/"+yy+", "+h+":"+mm+str;
+            y[i].setAttribute("contenteditable", "false");
+            z[i].innerHTML="Update";
+          }else{
+            alert("Invalid input");
+          }
+        }
+      }else{
+        for(var i=0;i<z.length;i++){
+          w[i].setAttribute("contenteditable", "true");
+          e[i].setAttribute("contenteditable", "true");
+          y[i].setAttribute("contenteditable", "true");
+          z[i].innerHTML="Save"
+        }
+      }
+    }
+    var z = document.getElementsByClassName("font_s");
+    for(var i=0;i<z.length;i++){
+        z[i].addEventListener('click', saveListener);
+  }
+</script>

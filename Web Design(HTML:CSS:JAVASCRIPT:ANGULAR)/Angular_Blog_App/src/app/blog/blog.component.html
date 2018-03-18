@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta descirption="Blog App">
+    <title>Blogs</title>
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+    <link href="blog.component.css" rel="stylesheet" type"text/css">
+    <script src="post.ts"></script>
+    <script src="mock-post.ts"></script>
+    <script src='blogservice.ts'></script>
+</head>
+
+<body>
+    <nav class="bgd_1">
+        <a class="font_1">Octopus</a>
+        <a class="font_2">Username</a>
+        <a class="icon_1">
+            <img (click)="create()" src="./assets/2.png" >
+        </a>
+    </nav>
+    <div *ngFor="let post of posts" class="box">
+        <div class="font_3" id ="{{post.title}}title" contenteditable="false">{{post.title}}</div>
+        <div class="font_4" id ="{{post.title}}time">{{post.date}}</div>
+        <div class="font_4" id ="{{post.title}}name" contenteditable="false">{{post.name}}</div>
+        <div class="font_5" id ="{{post.title}}p" contenteditable="false">{{post.p}}</div>
+        <div class="font_6" id ="{{post.title}}token" (click)=save(post.title)>Update</div>
+    </div>
+   <div class="sticky-area"></div>
+</body>
+
