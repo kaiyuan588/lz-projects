@@ -1,0 +1,14 @@
+1234,laizhang,21A
+2222,chengfeng,21B
+1234,Steven Gerrard,18F
+2222,David Luiz,5C
+5678,Luis Suarez,6E
+4444,Reheem Sterling,2B
+5678,Sadio Mane,24D
+4444,Philippe Coutinho,10F
+4444,Mohamod Salah,7E
+1234,Juggen Klopp,1A
+4444,Bobi Firmino,18C
+7777,Agash Pasade,19A
+7777,Boyao Sun,21D
+7777,Tiange Li,12F

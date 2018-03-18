@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/admin/SupplierManage.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/supplier/ViewProducts.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/admin/TopProducts.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/admin/CreatePerson.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/business/ProductDirectory.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/business/Salesman.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/admin/UpdateUserAccount.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/business/OrderList.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/business/Admin.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/main/Main.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/salesman/SalesmanManage.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/business/Rank.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/admin/AdminManage.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/business/Order.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/business/CustomerDirectory.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/admin/CreateUserAccount.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/admin/AdminEdit.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/admin/UserAccountManage.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/business/RankProduct.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/admin/BelowTarget.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/salesman/RegisterCustomer.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/supplier/ProductsManage.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/supplier/CreateProducts.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/admin/TotalRevenue.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/admin/AboveTarget.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/admin/TopTenPerson.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/business/MarketOffer.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/admin/MarketOfferManage.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/salesman/ManageOrder.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/admin/CreateMarketOffer.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/business/Configure.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/business/RoleManage.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/admin/RevenueByMarket.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/business/PersonDirectory.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/admin/MonitorPerformance.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/admin/SalesmanManage.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/admin/UpdateMarketOffer.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/business/Person.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/supplier/SupplierManage.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/business/PersonAndAccount.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/admin/PersonManage.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/user/salesman/UpdateCustomer.java</file>
+            <file>file:/Users/Ruby/Documents/Git/001833277_001280399_001839227/Assingment_6/src/business/MarketOfferCatalog.java</file>
+        </group>
+    </open-files>
+</project-private>

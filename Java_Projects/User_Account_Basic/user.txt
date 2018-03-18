@@ -1,0 +1,6 @@
+sgsa1,a6749cf0e71c7cee3c1c0ff3fb7d93e4,Steven Gerrard,System Admin,Active
+lssa1,217a88c286a159622e0f3bc482e40e74,Luis Suarez,System Admin,Active
+sghr1,163a05497dfaaff948ce9727c36d64db,Steven Gerrard,HR Admin,Active
+lssa2,80dcd9101d6e3f0bce8d81f517bbe151,Luis Suarez,System Admin,Active
+ruby,01929a2044ee327a8e3557405cb7abab,Lai Zhang,HR Admin,Active
+lai,01929a2044ee327a8e3557405cb7abab,Lai Zhang,System Admin,Active
